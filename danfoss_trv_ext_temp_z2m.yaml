@@ -1,14 +1,14 @@
 blueprint:
   domain: automation
-  name: Danfoss Ally Ext Temp Z2M
-  description: Update Danfoss Ally TRV external temperature with min/max refresh rate, via zigbee2mqtt
+  name: Hive Ally Ext Temp Z2M
+  description: Update Hive Ally TRV external temperature with min/max refresh rate, via zigbee2mqtt
   input:
     ally_device:
       name: Ally TRV Device
       description: Temperature reading will be sent to this device
       selector:
         device:
-          manufacturer: Danfoss
+          manufacturer: Hive
           entity:
             domain: climate
     temp_sensor_id:
